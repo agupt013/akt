@@ -30,7 +30,7 @@ and ImageNet[3] as unlabeled source dataset.
                     --imgnet_path <path-to-imagenet-dataset>   \
                     --gpu <gou-id-to-use>
 
-eg. python train.py --pascal_path /datasets/pascal-voc-2007/   \
+    python train.py --pascal_path /datasets/pascal-voc-2007/   \
                     --imgnet_path /datasets/imagenet-dataset   \
                     --gpu 0
 
@@ -42,7 +42,7 @@ eg. python train.py --pascal_path /datasets/pascal-voc-2007/   \
                     --gpu <gou-id-to-use>                      \
                     --test 1
 
-eg. python train.py --pascal_path /datasets/pascal-voc-2007/   \
+    python train.py --pascal_path /datasets/pascal-voc-2007/   \
                     --model ./checkpoints/best-model.pth       \
                     --gpu 0                                    \
                     --test 1
@@ -51,7 +51,7 @@ eg. python train.py --pascal_path /datasets/pascal-voc-2007/   \
     python train.py --pascal_path <path-to-pascal-voc-dataset> \
                     --imgnet_path <path-to-imagenet-dataset>                      
 
-eg. python train.py --pascal_path /datasets/pascal-voc-2007/   \
+    python train.py --pascal_path /datasets/pascal-voc-2007/   \
                     --imgnet_path /datasets/imagenet-dataset   
 
 ## To test your trained model WITHOUT GPU
@@ -59,7 +59,7 @@ eg. python train.py --pascal_path /datasets/pascal-voc-2007/   \
                     --model <path-to-trained-model>            \
                     --test 1
 
-eg. python train.py --pascal_path /datasets/pascal-voc-2007/   \
+    python train.py --pascal_path /datasets/pascal-voc-2007/   \
                     --model ./checkpoints/best-model.pth       \
                     --test 1
 
