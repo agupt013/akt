@@ -1,6 +1,6 @@
 # Adversarial Knowledge Transfer from Unlabeled Data 
 
-This repository is the official implementation our ACM-MM 2020 paper titled "Adversarial Knowledge Transfer from Unlabeled Data".
+This repository is the official implementation our [ACM-MM 2020](https://2020.acmmm.org/) paper titled "[Adversarial Knowledge Transfer from Unlabeled Data](https://arxiv.org/abs/2008.05746)".
 
 
 ## Implementation Details
@@ -71,14 +71,14 @@ and ImageNet[3] as unlabeled source dataset.
     
 ## References
 
-[1] Paszke, Adam, Sam Gross, Soumith Chintala, Gregory Chanan, Edward
+1. Paszke, Adam, Sam Gross, Soumith Chintala, Gregory Chanan, Edward
     Yang, Zachary DeVito, Zeming Lin, Alban Desmaison, Luca Antiga, 
     and Adam Lerer. "Automatic differentiation in pytorch." (2017).<br />
-[2] Everingham, Mark, Luc Van Gool, Christopher KI Williams, John Winn,
+1. Everingham, Mark, Luc Van Gool, Christopher KI Williams, John Winn,
     and Andrew Zisserman. "The pascal visual object classes (voc) 
     challenge." International journal of computer vision 88, no. 2 
     (2010): 303-338.<br />
-[3] Deng, Jia, Wei Dong, Richard Socher, Li-Jia Li, Kai Li, and Li 
+1. Deng, Jia, Wei Dong, Richard Socher, Li-Jia Li, Kai Li, and Li 
     Fei-Fei. "Imagenet: A large-scale hierarchical image database." 
     In 2009 IEEE conference on computer vision and pattern recognition, 
     pp. 248-255. Ieee, 2009.
