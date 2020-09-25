@@ -64,10 +64,10 @@ and ImageNet[3] as unlabeled source dataset.
                     --test 1
 
 ## Citation
-    Will be added soon.
+Will be added soon.
     
 ## Contact
-    Please contact the first author Akash Gupta (agupt013@ucr.edu) for any questions.
+Please contact the first author Akash Gupta ([agupt013@ucr.edu](agupt013@ucr.edu)) for any questions.
     
 ## References
 
