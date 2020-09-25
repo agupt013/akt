@@ -1,31 +1,31 @@
-# Introduction
+# Adversarial Knowledge Transfer from Unlabeled Data 
 
-This repository contains code of our ACM-MM 2020 paper titled "Adversarial Knowledge Transfer from Unlabeled Data"
+This repository is the official implementation our ACM-MM 2020 paper titled "Adversarial Knowledge Transfer from Unlabeled Data".
 
 
-# Implementation Details
+## Implementation Details
 
 Our implementation is in PyTorch [1] with python 3.6.7. We train all our 
 model on GeForce RTX 2080 Ti gpus. This implementation currently uses
 one gpu and can be modified to use multiple gpus for large batch size.
 
 
-# Python Packages
+## Python Packages
 
 Please refer to the requirements.txt file for all the packages we
 used to create the environment for training our models. We create an
 environment in anaconda.
 
 
-# Datasets
+## Datasets
 This is a working code of our proposed method for PASCAL-VOC/ImageNet 
 experiment. We use PASCAL-VOC[2] dataset as the labeled target dataset 
 and ImageNet[3] as unlabeled source dataset.
 
 
-# Usage
+## Usage
 
-## To train a model on PASCAL-VOC and ImageNet experiment WITH GPU
+### To train a model on PASCAL-VOC and ImageNet experiment WITH GPU
     python train.py --pascal_path <path-to-pascal-voc-dataset> \
                     --imgnet_path <path-to-imagenet-dataset>   \
                     --gpu <gou-id-to-use>
@@ -47,14 +47,14 @@ and ImageNet[3] as unlabeled source dataset.
                     --gpu 0                                    \
                     --test 1
 
-## To train a model on PASCAL-VOC and ImageNet experiment WITHOUT GPU
+### To train a model on PASCAL-VOC and ImageNet experiment WITHOUT GPU
     python train.py --pascal_path <path-to-pascal-voc-dataset> \
                     --imgnet_path <path-to-imagenet-dataset>                      
 
     python train.py --pascal_path /datasets/pascal-voc-2007/   \
                     --imgnet_path /datasets/imagenet-dataset   
 
-## To test your trained model WITHOUT GPU
+### To test your trained model WITHOUT GPU
     python train.py --pascal_path <path-to-pascal-voc-dataset> \
                     --model <path-to-trained-model>            \
                     --test 1
@@ -63,7 +63,13 @@ and ImageNet[3] as unlabeled source dataset.
                     --model ./checkpoints/best-model.pth       \
                     --test 1
 
-# References
+## Citation
+    Will be added soon.
+    
+## Contact
+    Please contact the first author Akash Gupta (agupt013@ucr.edu) for any questions.
+    
+## References
 
 [1] Paszke, Adam, Sam Gross, Soumith Chintala, Gregory Chanan, Edward
     Yang, Zachary DeVito, Zeming Lin, Alban Desmaison, Luca Antiga, 
@@ -76,4 +82,6 @@ and ImageNet[3] as unlabeled source dataset.
     Fei-Fei. "Imagenet: A large-scale hierarchical image database." 
     In 2009 IEEE conference on computer vision and pattern recognition, 
     pp. 248-255. Ieee, 2009.
+    
+
 
