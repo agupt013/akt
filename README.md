@@ -1,13 +1,13 @@
 # Adversarial Knowledge Transfer from Unlabeled Data 
 
-This repository is the official implementation our [ACM-MM 2020](https://2020.acmmm.org/) paper titled "[Adversarial Knowledge Transfer from Unlabeled Data](https://arxiv.org/abs/2008.05746)".
+This repository is the official implementation our paper titled "[Adversarial Knowledge Transfer from Unlabeled Data](https://arxiv.org/abs/2008.05746)" accepted to [ACM-MM 2020](https://2020.acmmm.org/).
 
 
 ## Implementation Details
 
 Our implementation is in PyTorch [1] with python 3.6.7. We train all our 
 model on GeForce RTX 2080 Ti GPUs. This implementation currently uses
-one gpu and can be modified to use multiple gpus for large batch size.
+one gpu and can be modified to use multiple gpus for larger batch size.
 
 
 ## Python Packages
@@ -28,10 +28,10 @@ and ImageNet[3] as unlabeled source dataset.
 ### To train a model on PASCAL-VOC and ImageNet experiment WITH GPU
     python train.py --pascal_path <path-to-pascal-voc-dataset> \
                     --imgnet_path <path-to-imagenet-dataset>   \
-                    --gpu <gou-id-to-use>
+                    --gpu <gpu-id-to-use>
 
     python train.py --pascal_path /datasets/pascal-voc-2007/   \
-                    --imgnet_path /datasets/imagenet-dataset   \
+                    --imgnet_path /datasets/imagenet-dataset/   \
                     --gpu 0
 
 
@@ -39,7 +39,7 @@ and ImageNet[3] as unlabeled source dataset.
 ## To test your trained model WITH GPU
     python train.py --pascal_path <path-to-pascal-voc-dataset> \
                     --model <path-to-trained-model>            \
-                    --gpu <gou-id-to-use>                      \
+                    --gpu <gpu-id-to-use>                      \
                     --test 1
 
     python train.py --pascal_path /datasets/pascal-voc-2007/   \
@@ -52,7 +52,7 @@ and ImageNet[3] as unlabeled source dataset.
                     --imgnet_path <path-to-imagenet-dataset>                      
 
     python train.py --pascal_path /datasets/pascal-voc-2007/   \
-                    --imgnet_path /datasets/imagenet-dataset   
+                    --imgnet_path /datasets/imagenet-dataset/   
 
 ### To test your trained model WITHOUT GPU
     python train.py --pascal_path <path-to-pascal-voc-dataset> \
