@@ -6,7 +6,7 @@ This repository is the official implementation our ACM-MM 2020 paper titled "Adv
 ## Implementation Details
 
 Our implementation is in PyTorch [1] with python 3.6.7. We train all our 
-model on GeForce RTX 2080 Ti gpus. This implementation currently uses
+model on GeForce RTX 2080 Ti GPUs. This implementation currently uses
 one gpu and can be modified to use multiple gpus for large batch size.
 
 
@@ -73,11 +73,11 @@ and ImageNet[3] as unlabeled source dataset.
 
 [1] Paszke, Adam, Sam Gross, Soumith Chintala, Gregory Chanan, Edward
     Yang, Zachary DeVito, Zeming Lin, Alban Desmaison, Luca Antiga, 
-    and Adam Lerer. "Automatic differentiation in pytorch." (2017).
+    and Adam Lerer. "Automatic differentiation in pytorch." (2017).<br />
 [2] Everingham, Mark, Luc Van Gool, Christopher KI Williams, John Winn,
     and Andrew Zisserman. "The pascal visual object classes (voc) 
     challenge." International journal of computer vision 88, no. 2 
-    (2010): 303-338.
+    (2010): 303-338.<br />
 [3] Deng, Jia, Wei Dong, Richard Socher, Li-Jia Li, Kai Li, and Li 
     Fei-Fei. "Imagenet: A large-scale hierarchical image database." 
     In 2009 IEEE conference on computer vision and pattern recognition, 
