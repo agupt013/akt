@@ -1,6 +1,7 @@
 # Adversarial Knowledge Transfer from Unlabeled Data 
 
 This repository is the official implementation our paper titled "[Adversarial Knowledge Transfer from Unlabeled Data](https://arxiv.org/abs/2008.05746)" accepted to [ACM-MM 2020](https://2020.acmmm.org/).
+More details are available at the [project page.](https://akashagupta.com/akt.html)
 
 
 ## Implementation Details
