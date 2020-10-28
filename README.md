@@ -32,7 +32,7 @@ and ImageNet[3] as unlabeled source dataset.
                     --gpu <gpu-id-to-use>
 
     python train.py --pascal_path /datasets/pascal-voc-2007/   \
-                    --imgnet_path /datasets/imagenet-dataset/   \
+                    --imgnet_path /datasets/imagenet-dataset/  \
                     --gpu 0
 
 
