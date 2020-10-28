@@ -64,6 +64,7 @@ and ImageNet[3] as unlabeled source dataset.
                     --test 1
 
 ## Citation
+'''
 @inproceedings{gupta2020adversarial,
   title={Adversarial Knowledge Transfer from Unlabeled Data},
   author={Gupta, Akash and Panda, Rameswar and Paul, Sujoy and Zhang, Jianming and Roy-Chowdhury, Amit K},
@@ -71,6 +72,7 @@ and ImageNet[3] as unlabeled source dataset.
   pages={2175--2183},
   year={2020}
 }
+'''
     
 ## Contact
 Please contact the first author Akash Gupta ([agupt013@ucr.edu](agupt013@ucr.edu)) for any questions.
